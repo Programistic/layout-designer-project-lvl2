@@ -12,12 +12,14 @@
   font-style: normal;
 }
 
-@mixin reset {
+* {
   margin: 0;
   padding: 0;
+
+  box-sizing: border-box;
 }
 
-@mixin default-font {
+body {
   color: #cacaca;
 
   font-weight: 400;
@@ -26,9 +28,7 @@
   font-family: 'Roboto', sans-serif;
 
   line-height: 1.5;
-}
 
-@mixin default-bg {
   background: #08020d;
 }
 
@@ -43,14 +43,22 @@
   }
 }
 
-.h1 {
-  font-size: 60px;
+@media (min-width: 415px) {
+  .h1 {
+    font-size: 60px;
+  }
+
+  .h2 {
+    font-size: 38px;
+  }
 }
 
-.h2 {
-  font-size: 38px;
-}
+@media (max-width: 414px) {
+  .h1 {
+    font-size: 30px;
+  }
 
-.h1-mobile {
-  font-size: 30px;
+  .h2 {
+    font-size: 18px;
+  }
 }

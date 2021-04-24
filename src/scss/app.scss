@@ -2,7 +2,6 @@
 @import "general.scss";
 
 * {
-  @include default-font;
-  @include default-bg;
+  @include reset;
 }
 
