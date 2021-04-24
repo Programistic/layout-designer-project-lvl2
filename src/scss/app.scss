@@ -1,0 +1,8 @@
+@import "variables.scss";
+@import "general.scss";
+
+* {
+  @include default-font;
+  @include default-bg;
+}
+
