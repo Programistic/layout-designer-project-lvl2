@@ -32,30 +32,25 @@
   background: #08020d;
 }
 
-.h1 {
+.h1,
+.h2,
+.h1-mobile,
+.h2-mobile {
   font-weight: 700;
-  font-size: 60px;
 
-  line-height: 1.5;
+  .upper {
+    text-transform: uppercase;
+  }
+}
+
+.h1 {
+  font-size: 60px;
 }
 
 .h2 {
-  font-weight: 700;
   font-size: 38px;
-
-  line-height: 1.5;
 }
 
 .h1-mobile {
-  font-weight: 700;
   font-size: 30px;
-
-  line-height: 1.5;
-}
-
-.h2-mobile {
-  font-weight: 700;
-  font-size: 18px;
-
-  line-height: 1.5;
 }
