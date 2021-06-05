@@ -1,12 +1,78 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/app.css">
   <title>Music box / Programistic</title>
 </head>
-<body>
-  
+
+<body class="main_page">
+
+  <section id="page-description" class="outer">
+
+      <div class="top-bar">
+
+        <div class="container">
+
+          <div class="top-bar__left">
+            <a href="#">
+              <img class="logo" src="./images/logo.svg" alt="Music Box">
+              <div class="logo-text">Music box</div>
+            </a>
+          </div>
+
+          <div class="top-bar__center">
+            <div class="top-bar__link-container">
+              <a href="#">Главная</a>
+            </div>
+            <div class="top-bar__link-container">
+              <a href="#">Каталог</a>
+            </div>
+            <div class="top-bar__link-container">
+              <a href="#">Исполнители</a>
+            </div>
+            <div class="top-bar__link-container">
+              <a href="#">Контакты</a>
+            </div>
+          </div>
+
+          <div class="top-bar__right">
+            <form class="search-form" action="#">
+              <label for="search-input" class="sr-only">Поиск</label>
+              <input id="search-input" class="search-form__input" type="text" placeholder="Поиск..." size="50">
+            </form>
+          </div>
+        
+        </div>
+
+      </div>
+
+      <div class="main-block bg-banner">
+        <div class="container">
+          <div id="page1" class="main-block__container">
+            <div class="main-block-item__center">
+              <div class="inner__top">
+                <h1>Онлайн музыка где угодно</h1>
+                <h2>без ограничений</h2>
+                <p class="mt-32">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</p>
+              </div>
+              <form class="inner__bottom" action="#">
+                <label for="banner-username" class="sr-only">Имя</label>
+                <input id="banner-username" class="banner-input-box" type="text" placeholder="Имя" size="50">
+                <label for="banner-email" class="sr-only">Email</label>
+                <input id="banner-email" class="banner-input-box" type="text" placeholder="Email" size="50">
+                <label for="banner-access-btn" class="sr-only">Получить доступ</label>
+                <input id="banner-access-btn" class="banner-btn" type="submit" value="Получить доступ">
+              </form> 
+            </div>
+          </div>  
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </section>
 </body>
 </html>
