@@ -35,6 +35,8 @@ h1,
 h2 {
   font-weight: 700;
 
+  color: $white;
+
   text-transform: uppercase;
 }
 
@@ -46,24 +48,9 @@ h2 {
   font-size: 38px;
 }
 
-@media (max-width: 414px) {
-  h1 {
-    font-size: 30px;
-  }
-
-  h2 {
-    font-size: 18px;
-  }
-
-  .container {
-    width: 414xp;
-
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-}
-
 a {
+  color: $white;
+
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -97,6 +84,8 @@ img {
   min-width: 270px;
   min-height: 50px;
 
+  margin-bottom: 1.5rem;
+
   padding-left: 20px;
 
   font-weight: 700;
@@ -110,4 +99,27 @@ img {
 
   border: 2px solid $dark-gray;
   border-radius: 3px;
+}
+
+@media (max-width: 414px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .banner-input-box {
+    flex-basis: 100%;
+  }
 }

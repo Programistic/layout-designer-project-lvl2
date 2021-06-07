@@ -10,70 +10,45 @@
   font-size: 11px;
   line-height: 1.17;
 
-    a {
-      color: $gray;
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+
+    width: 100%;
+  }
+
+  .top-bar__left {
+    display: flex;
+    flex-grow: 2;
+  }
+
+  .top-bar__center {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 50;
+    justify-content: flex-end;
+
+    padding: 6px 0;
+
+    .top-bar__link-container {
+      margin-left: 24px;
     }
+  }
 
-    .container {
-      display: flex;
-      flex-wrap: wrap;
-
-      width: 100%;
-    }
-
-    .top-bar__left {
-      display: flex;
-      flex-grow: 2;
-    }
-
-    .top-bar__center {
-      display: flex;
-      flex-wrap: wrap;
-      flex-grow: 50;
-      justify-content: flex-end;
-
-      padding: 6px 0;
-
-      .top-bar__link-container {
-        margin-left: 24px;
-      }
-    }
-
-    .top-bar__right{
-      display: flex;
-      flex-grow: 350;
-      justify-content: flex-end;
-    }
-
-    .logo {
-      height: 24px;
-
-      margin-top: -3px;
-      margin-right: 16px;
-    }
-
-    .logo-text {
-      display: inline-block;
-
-      padding: 6px 0;
-
-      cursor: pointer;
-      
-      white-space: nowrap;
-    }
+  .top-bar__right {
+    display: flex;
+    flex-grow: 350;
+    justify-content: flex-end;
 
     .search-form {
-      width: 248px;
-      height: 25px;
-
       margin-left: 20px;
-
+  
       .search-form__input {
         padding: 5px 10px;
-
+  
         width: 248px;
       
-        color: #757575;
+        color: $light-gray;
       
         font-family: Arial, sans-serif;
         font-weight: 400;
@@ -88,4 +63,68 @@
         background-color: $bg-dark;
       }
     }
+  }
+
+  .logo {
+    height: 24px;
+
+    margin-top: -3px;
+    margin-right: 16px;
+  }
+
+  .logo-text {
+    display: inline-block;
+
+    padding: 6px 0;
+
+    cursor: pointer;
+    
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 414px) {
+  .top-bar{
+    height: 250px;
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+  
+      width: 100%;
+    }
+
+    .top-bar__left {
+      display: flex;
+      width: 100%;
+    }
+
+    .top-bar__center {
+      display: flex;
+      flex-wrap: wrap;
+
+      margin-top: 17px;
+
+      padding: 0;
+  
+      .top-bar__link-container {
+        width: 100%;
+
+        margin-left: 0;
+        margin-bottom: 3px;
+      }
+    }
+
+    .top-bar__right {
+      margin-top: 15px;
+
+      .search-form {
+        margin: 0;
+
+        .search-form__input {
+          width: 100%;
+        }
+      }
+    }
+  }
 }
