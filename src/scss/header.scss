@@ -43,7 +43,7 @@
     .search-form {
       margin-left: 20px;
   
-      .search-form__input {
+      .search-form__input-box {
         padding: 5px 10px;
   
         width: 248px;
@@ -83,7 +83,7 @@
   }
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
   .top-bar{
     height: 250px;
 
@@ -121,7 +121,7 @@
       .search-form {
         margin: 0;
 
-        .search-form__input {
+        .search-form__input-box {
           width: 100%;
         }
       }

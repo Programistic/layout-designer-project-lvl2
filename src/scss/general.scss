@@ -65,27 +65,31 @@ img {
   margin-left: auto;
 
   max-width: 1200px;
+  min-width: 280px;
 }
 
 .bg-banner {
   background-image: $bg-banner;
   background-position: center;
   background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
-.banner-input-box {
-  display: flex;
-  flex-basis: 48%;
+.btn {
+  text-align: center;
+  text-transform: uppercase;
 
-  min-width: 270px;
-  min-height: 50px;
+  color: $white;
 
-  margin-bottom: 1.5rem;
+  background-color: $bg-green;
 
+  border: none;
+  border-radius: 5px;
+
+  cursor: pointer;
+}
+
+.input-box {
   padding-left: 20px;
 
   font-weight: 700;
@@ -101,7 +105,7 @@ img {
   border-radius: 3px;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
   h1 {
     font-size: 30px;
   }
@@ -117,9 +121,5 @@ img {
   .container {
     padding-right: 20px;
     padding-left: 20px;
-  }
-
-  .banner-input-box {
-    flex-basis: 100%;
   }
 }
