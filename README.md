@@ -1,2 +1,18 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Programistic/layout-designer-project-lvl2/workflows/hexlet-check/badge.svg)](https://github.com/Programistic/layout-designer-project-lvl2/actions)
+# Одностраничный сайт "Music box"
+
+### https://...
+
+### Учебный проект от Хекслет
+
+##### Функциональность:
+Портал онлайн-музыки
+
+##### Используемые технологии:
+- БЭМ;
+- Абсолютное и относительное позиционирование элементов
+- Flex Layout
+- Grid Layout
+- Адаптивная вёрстка
+
+##### Планы по доработке проекта:
+- Добавить функциональность с помощью JS
