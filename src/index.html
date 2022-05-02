@@ -5,10 +5,62 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/app.css">
-  <title>Music box / Programistic</title>
+  <title>Music box</title>
 </head>
 
-<body class="main_page">
+<body class="page">
+
+  <div class="container">
+
+    <header class="header">
+      
+      <div class="header__logo-zone">
+        <img class="header__logo" src="./images/logo.svg" alt="Music box">
+        <ul class="header__lang-links">
+          <li>
+            <a class="header__lang-link header__lang-link_active" href="https://programistic.github.io/russian-travel/index.html" title="Главная страница">
+              Главная
+            </a>
+          </li>
+          <li>
+            <a class="header__lang-link" href="#" title="Каталог">
+              Каталог
+            </a>
+          </li>
+          <li>
+            <a class="header__lang-link" href="#" title="Исполнители">
+              Исполнители
+            </a>
+          </li>
+          <li>
+            <a class="header__lang-link" href="#" title="Контакты">
+              Контакты
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <h1 class="header__title">Онлайн музыка где угодно</h1>
+      <p class="header__subtitle">Без ограничений</p>
+
+      <div class="header__form">
+        <h2 class="form__title">Получите доступ всего за несколько шагов. Заполните форму ниже и откройте мир музыки</h2>
+        <fieldset class="form__fieldset">
+          <div class="form__field">
+            <input id="name-input" className="form__input form__input_role_name" type="text" name="name" placeholder="Имя" required />
+          </div>
+          <div class="form__field">
+            <input id="email-input" className="form__input form__input_role_email" type="email" name="email" placeholder="Email" required />
+          </div>
+        </fieldset>
+        <button class="form__submit button" type="submit" aria-label='Получить доступ'>Получить доступ</button>
+      </div>
+
+    </header>
+
+  </div>
+
+  <!--
 
   <section id="page-description" class="outer">
 
@@ -86,6 +138,7 @@
       
       </div>
     </div>
-  </section>
+  </section> -->
+
 </body>
 </html>
