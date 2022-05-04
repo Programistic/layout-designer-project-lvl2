@@ -1,0 +1,34 @@
+/* Общие стили для страницы */
+@import url(../vendor/normalize.css);
+@import url(../fonts/font-roboto.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/container/container.css);
+@import url(../blocks/input/input.css);
+@import url(../blocks/button/button.css);
+
+/* Стили для header */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__logo-image/header__logo-image.css);
+@import url(../blocks/header/__input/header__input.css);
+
+/* Стили для menu */
+@import url(../blocks/menu/menu.css);
+@import url(../blocks/menu/__list/menu__list.css);
+@import url(../blocks/menu/__list-item/menu__list-item.css);
+@import url(../blocks/menu/__link/menu__link.css);
+@import url(../blocks/menu/__link/_active/menu__link_active.css);
+
+/* Стили для banner */
+@import url(../blocks/banner/banner.css);
+@import url(../blocks/banner/__title/banner__title.css);
+@import url(../blocks/banner/__subtitle/banner__subtitle.css);
+@import url(../blocks/banner/__form/banner__form.css);
+
+/* Стили для form */
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__fieldset/form__fieldset.css);
+@import url(../blocks/form/__field/form__field.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__submit/form__submit.css);
